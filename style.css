@@ -337,6 +337,34 @@ footer a { color: var(--muted); }
 /* Screenshot captions under portrait shots of the browser page */
 .shots figure.web img { border-color: rgba(255,255,255,.18); }
 
+/* ── Screenshot viewer (click a screenshot to see it big) ── */
+.shots img { cursor: zoom-in; }
+.lb { position: fixed; inset: 0; z-index: 100; display: grid; place-items: center; padding: 24px 72px;
+  background: rgba(6, 5, 14, .88); backdrop-filter: blur(14px); -webkit-backdrop-filter: blur(14px);
+  opacity: 0; transition: opacity .2s ease; }
+.lb.open { opacity: 1; }
+.lb figure { margin: 0; display: flex; flex-direction: column; align-items: center; gap: 14px; max-height: 100%; }
+.lb img { display: block; max-width: min(92vw, 520px); max-height: calc(100vh - 110px); width: auto; height: auto; border-radius: 26px;
+  border: 1px solid rgba(255,255,255,.14); box-shadow: 0 40px 90px -30px rgba(0,0,0,.95), 0 0 0 6px rgba(255,255,255,.04);
+  transform: scale(.96); transition: transform .25s ease; cursor: default; user-select: none; -webkit-user-drag: none; }
+.lb.open img { transform: none; }
+.lb figcaption { color: var(--fg); font-weight: 700; text-align: center; }
+.lb figcaption span { color: var(--soft); font-weight: 600; margin-left: 8px; }
+.lb button { position: absolute; display: grid; place-items: center; width: 48px; height: 48px; border-radius: 50%; cursor: pointer;
+  color: #fff; background: rgba(255,255,255,.1); border: 1px solid rgba(255,255,255,.16); transition: background .2s ease, transform .2s ease; }
+.lb button:hover { background: rgba(255,255,255,.2); }
+.lb button svg { width: 22px; height: 22px; fill: none; stroke: currentColor; stroke-width: 2.4; stroke-linecap: round; stroke-linejoin: round; }
+.lb .lb-x { top: 18px; right: 18px; }
+.lb .lb-prev { left: 18px; top: 50%; translate: 0 -50%; }
+.lb .lb-next { right: 18px; top: 50%; translate: 0 -50%; }
+@media (max-width: 640px) {
+  .lb { padding: 64px 12px 24px; }
+  .lb img { max-height: calc(100vh - 150px); border-radius: 20px; }
+  .lb .lb-prev, .lb .lb-next { top: auto; bottom: 18px; translate: none; }
+  .lb .lb-x { top: 12px; right: 12px; }
+}
+body.lb-lock { overflow: hidden; }
+
 @media (prefers-reduced-motion: reduce) {
   *, *::before, *::after { animation: none !important; transition: none !important; }
   .js .reveal { opacity: 1; transform: none; }
