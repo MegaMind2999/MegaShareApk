@@ -1,0 +1,114 @@
+# MegaShare: full details
+
+> Free Android app that shares files, folders and apps from an Android phone with any phone, tablet or computer on the same Wi-Fi or hotspot. The other side only needs a browser: scan a QR code or type a short address, then download or upload. No internet, no account, no app on the other side. Includes a watch party (videos and music in sync), app sharing, a split-APK installer (APK, APKS, XAPK, APKM) and app backup.
+
+- Website: https://megamind2999.github.io/MegaShareApk/
+- Latest APK (direct link, always the newest version): https://github.com/MegaMind2999/MegaShareApk/releases/latest/download/MegaShare.apk
+- Releases: https://github.com/MegaMind2999/MegaShareApk/releases
+- Support: https://github.com/MegaMind2999/MegaShareApk/issues
+- Developer: MegaMind. Price: free (no ads, no subscriptions, no in-app purchases, no analytics).
+- Requirements: the sharing phone needs Android 7.0 or newer. Visitors need any modern browser (Safari, Chrome, Edge, Firefox…) on iPhone, iPad, Android, Windows, Mac or Linux.
+- Not on Google Play: it is published as an APK on its website and GitHub releases.
+
+## What problem it solves
+
+Sending files between different devices is often hard: Quick Share (Nearby Share) only works between devices that have it, sometimes can't find the other device, and is under different names and menus on different Android brands. Cables and cloud uploads are slow or use mobile data. MegaShare makes the phone serve a private web page on the local network instead, so one QR code works for every device with a browser.
+
+## How it works
+
+1. Pick what to share: a few files, one folder, or the whole storage (SD card included). Choose Send (others download), Receive (others upload to you) or Both ways.
+2. Tap start. MegaShare shows a big QR code and a short address like 192.168.1.5:8080.
+3. Others on the same Wi-Fi or hotspot scan the QR with their camera or type the address in a browser. A file page opens where they browse, preview, download or upload.
+
+Files go directly between the two devices over the local network, at Wi-Fi speed, using no mobile data. Sharing stops when you stop it or after an idle time you choose.
+
+## Networks
+
+- Same Wi-Fi: nothing to set up.
+- Quick hotspot: started by the app, with a Wi-Fi QR code so others join without typing a password.
+- Phone hotspot: the normal Android hotspot, open or with a simple password.
+- Some phones can run a hotspot while staying on Wi-Fi; otherwise MegaShare says when to turn Wi-Fi off. It warns about a VPN only if it really blocks other devices.
+
+## In the visitor's browser (no app)
+
+- List and grid views with thumbnails, sorting, filters by type and search in all subfolders.
+- Photo gallery with swipe; videos and music play and seek right away.
+- Download single files, or a folder or selection as one zip made on the fly.
+- Upload files or whole folders with drag and drop, progress and speed; gigabyte files work; name clashes get "(2)".
+- Rename, new folder and delete, only if the owner allows it.
+- Shared clipboard in both directions, dark mode, and "Get the app" to install MegaShare from the phone.
+
+## Control and safety
+
+- Separate switches for download, upload, rename/new folder, delete and hidden files, changeable while sharing.
+- Optional PIN for the web page.
+- Live list of connected devices with a Block button; live transfers in the Activity tab.
+- Only devices on the same local network can connect, and only while sharing is on.
+
+## Phone to phone (MegaShare on both)
+
+- Find nearby phones automatically, scan the page QR or the hotspot Wi-Fi QR, or type the address.
+- Download everything shared, folders included, with progress, speed, time left and resume; files already on the phone are skipped.
+
+## Watch party (videos and music together)
+
+- Party tab: add videos, songs or a whole folder, start the party, friends scan the QR code and join in their browser or with MegaShare.
+- Everyone stays on the same second: play, pause, seek, speed and next happen for all. The phone keeps the clock and corrects drift smoothly.
+- Chat, emoji reactions, list of who is watching, subtitles (.srt or .vtt matched by file name), picture-in-picture, full screen, keyboard shortcuts.
+- Music: cover art on a spinning record, live visualizer, shuffle and loop, play/pause from the lock screen.
+- Controls for "Everyone" or "Only me"; the phone can be the remote while friends watch on a laptop or TV browser.
+- Most MP4 and WebM videos and common music formats play; some MKV files can't play in a browser.
+
+## Apps: share, install and back up
+
+- Apps tab lists installed apps with search and filters (your apps, split apps, system apps).
+- Share apps: tick apps, tap Share, show the QR code. In a browser, each app downloads as an .apk; split apps (App Bundles installed from Google Play) download as one .apks file. Another phone with MegaShare installs them straight from the sharing phone, split apps included, without leaving files behind.
+- Split-APK installer like SAI: installs .apk, .apks, .xapk, .apkm or a zip of APKs. It picks the splits the phone needs (CPU architecture, screen density, languages; bundletool variants too) and installs them in one Android installer session. XAPK game data (OBB) is copied to Android/obb.
+- Open an app file with MegaShare from a file manager, or pick one inside the app.
+- Back up apps to Download/MegaShare/Apps (.apk, or .apks for split apps), send them with any app, open App info, uninstall.
+- Limits: backups contain the app, not its data (logins, game progress). An installed split app only contains the parts for the phone it is on, so it may not install on a phone with a different CPU type.
+
+## Everything else
+
+- Light, dark and AMOLED themes, 16 accent colors with a matching app icon, 10 animated backgrounds, phone and tablet layouts.
+- Start or stop from every tab, a Quick Settings tile and the notification.
+- Updates itself from GitHub releases once a day (silently on Android 12+ after the first update), and never while sharing.
+- Battery friendly: nothing runs when not sharing.
+
+## Privacy
+
+There is no MegaShare server or cloud. Files and apps go straight between devices on the local network, only while sharing, and only what the owner chose. The installed-apps list stays on the phone. The only internet use is the daily update check and download from GitHub; no personal data is sent. Full policy: https://megamind2999.github.io/MegaShareApk/privacy.html
+
+## MegaShare compared with Quick Share
+
+| | MegaShare | Quick Share |
+|---|---|---|
+| Other device needs | Just a browser | Quick Share installed and turned on |
+| Connecting | Scan a QR or type a short address | Wait for the device to appear |
+| Same on every brand | Yes, one app | Different names and menus per brand |
+| Who picks the files | Visitors can browse and take what they need | The sender chooses and sends |
+| Sending to you | Anyone on the page can upload, if allowed | They need Quick Share too |
+
+Quick Share is a trademark of its owners; MegaShare is independent and not affiliated with it.
+
+## FAQ
+
+**Is MegaShare free?** Yes, free with no ads, subscriptions or in-app purchases.
+
+**Does the other person need to install anything?** No. They open the link or scan the QR code and use their normal browser.
+
+**Does it work with iPhone, Windows and Mac?** Yes. Any modern browser works. Only the sharing phone needs Android 7.0 or newer.
+
+**Do I need internet or mobile data?** No. Both devices only need to be on the same Wi-Fi, or one on the other's hotspot.
+
+**Is it safe?** Only devices on the same network can open the page, only while sharing is on, and only what was picked. Add a PIN, block devices, turn off uploads or downloads at any time; sharing stops by itself when idle.
+
+**Is there a file size limit?** No. Large videos and whole folders work, and phone-to-phone downloads resume after interruptions.
+
+**How does the watch party work?** Open the Party tab, add videos or songs, start it; friends scan the QR code and everyone plays in sync.
+
+**How do I share an app or install APKS, XAPK or APKM files?** Open the Apps tab, tick apps and tap Share; friends download the APK in a browser or install with MegaShare. To install a file, use "Pick an app file" in Files & backups, or open the file with MegaShare. Split apps install in one step, like SAI.
+
+**Can I back up apps?** Yes, to Download/MegaShare/Apps as .apk or .apks. App data isn't included.
+
+**How do I install MegaShare and get updates?** Download MegaShare.apk from the link above on the Android phone, open it and allow installing from the browser if asked. It checks GitHub for updates daily and can install them itself.

@@ -3,36 +3,233 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>MegaShare: Share files from Android to any phone or PC, no app needed (free APK)</title>
-<meta name="description" content="MegaShare is a free Android app that shares files over Wi-Fi or hotspot with any phone, tablet or computer. The other side only needs a browser: scan a QR code, then download or upload files and folders. No internet, no account, no app on the other side. Watch videos and play music together in sync with a watch party. An easier way than Quick Share. Download the APK.">
-<meta name="keywords" content="MegaShare, file sharing app, share files Android to PC, Wi-Fi file transfer, hotspot file transfer, send files to iPhone, Quick Share alternative, Nearby Share alternative, no app needed, browser file transfer, QR code file sharing, local file server, APK download">
+<title>MegaShare: Share files and apps from Android to any phone or PC, no app needed (free APK)</title>
+<meta name="description" content="MegaShare is a free Android app that shares files over Wi-Fi or hotspot with any phone, tablet or computer. The other side only needs a browser: scan a QR code, then download or upload files and folders. No internet, no account, no app on the other side. Watch videos and play music together in sync, share installed apps as APK, and install split APKs (APKS, XAPK, APKM) like SAI. An easier way than Quick Share. Download the free APK.">
+<meta name="keywords" content="MegaShare, file sharing app, share files Android to PC, Wi-Fi file transfer, hotspot file transfer, send files to iPhone, Quick Share alternative, Nearby Share alternative, no app needed, browser file transfer, QR code file sharing, local file server, APK download, share apps, APK extractor, app backup, split APK installer, SAI alternative, install APKS, install XAPK, install APKM, watch party, watch together, sync video, listen together">
 <link rel="canonical" href="https://megamind2999.github.io/MegaShareApk/">
 <link rel="icon" href="icon.png">
 <link rel="apple-touch-icon" href="icon.png">
 <meta name="theme-color" content="#0b0a16">
+<meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1">
+<meta name="author" content="MegaMind">
+<meta name="application-name" content="MegaShare">
+<link rel="alternate" type="text/plain" title="MegaShare for AI agents (llms.txt)" href="llms.txt">
 
 <meta property="og:type" content="website">
+<meta property="og:site_name" content="MegaShare">
+<meta property="og:locale" content="en_US">
 <meta property="og:title" content="MegaShare: share files with anyone, they only need a browser">
-<meta property="og:description" content="Free Android app: share files and folders with any phone or PC over Wi-Fi or hotspot. Scan a QR code, download or upload in the browser. No app needed on the other side.">
+<meta property="og:description" content="Free Android app: share files, folders and apps with any phone or PC over Wi-Fi or hotspot. Scan a QR code, download or upload in the browser. Watch party, split APK installer and app backup included. No app needed on the other side.">
 <meta property="og:url" content="https://megamind2999.github.io/MegaShareApk/">
 <meta property="og:image" content="https://megamind2999.github.io/MegaShareApk/icon.png">
+<meta property="og:image:alt" content="MegaShare app icon">
 <meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="MegaShare: share files and apps with anyone, they only need a browser">
+<meta name="twitter:description" content="Free Android app: share files, folders and apps over Wi-Fi or hotspot with any phone or PC. QR code, no app on the other side, no internet.">
+<meta name="twitter:image" content="https://megamind2999.github.io/MegaShareApk/icon.png">
 
-<!-- Lets Google show MegaShare as an app (name, OS, price, download) in search results. -->
+<!-- Tells Google and AI agents what MegaShare is (app, features, screenshots, price, download). The FAQPage block below must match the FAQ section word for word: update both together. -->
 <script type="application/ld+json">
 {
-  "@context": "https://schema.org",
-  "@type": "SoftwareApplication",
-  "name": "MegaShare",
-  "description": "Share files from an Android phone with any phone, tablet or computer over Wi-Fi or hotspot. The other side only needs a browser to download and upload files.",
-  "applicationCategory": "UtilitiesApplication",
-  "operatingSystem": "Android 7.0 or later",
-  "url": "https://megamind2999.github.io/MegaShareApk/",
-  "downloadUrl": "https://github.com/MegaMind2999/MegaShareApk/releases/latest/download/MegaShare.apk",
-  "installUrl": "https://github.com/MegaMind2999/MegaShareApk/releases/latest",
-  "image": "https://megamind2999.github.io/MegaShareApk/icon.png",
-  "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD" },
-  "author": { "@type": "Person", "name": "MegaMind" }
+ "@context": "https://schema.org",
+ "@graph": [
+  {
+   "@type": "SoftwareApplication",
+   "@id": "https://megamind2999.github.io/MegaShareApk/#app",
+   "name": "MegaShare",
+   "alternateName": "MegaShare APK",
+   "description": "Free Android app that turns the phone into a local web file server. Any phone, tablet or computer on the same Wi-Fi or hotspot opens a link or scans a QR code and downloads or uploads files and folders in its browser, with no app on the other side and no internet. Also: watch videos and play music together in sync (watch party), share installed apps as APK or APKS, install split APKs (APKS, XAPK, APKM) like SAI, and back up apps.",
+   "applicationCategory": "UtilitiesApplication",
+   "applicationSubCategory": "File transfer",
+   "operatingSystem": "Android 7.0 or later",
+   "isAccessibleForFree": true,
+   "url": "https://megamind2999.github.io/MegaShareApk/",
+   "downloadUrl": "https://github.com/MegaMind2999/MegaShareApk/releases/latest/download/MegaShare.apk",
+   "installUrl": "https://github.com/MegaMind2999/MegaShareApk/releases/latest",
+   "releaseNotes": "https://github.com/MegaMind2999/MegaShareApk/releases",
+   "image": "https://megamind2999.github.io/MegaShareApk/icon.png",
+   "screenshot": [
+    {
+     "@type": "ImageObject",
+     "url": "https://megamind2999.github.io/MegaShareApk/screenshots/setup.jpg",
+     "caption": "Pick what to share"
+    },
+    {
+     "@type": "ImageObject",
+     "url": "https://megamind2999.github.io/MegaShareApk/screenshots/live.jpg",
+     "caption": "QR code and address to share"
+    },
+    {
+     "@type": "ImageObject",
+     "url": "https://megamind2999.github.io/MegaShareApk/screenshots/web-grid.jpg",
+     "caption": "The visitor's browser, no app needed"
+    },
+    {
+     "@type": "ImageObject",
+     "url": "https://megamind2999.github.io/MegaShareApk/screenshots/party.jpg",
+     "caption": "Watch party in sync"
+    },
+    {
+     "@type": "ImageObject",
+     "url": "https://megamind2999.github.io/MegaShareApk/screenshots/apps.jpg",
+     "caption": "Sharing apps with a QR code"
+    },
+    {
+     "@type": "ImageObject",
+     "url": "https://megamind2999.github.io/MegaShareApk/screenshots/apps-web.jpg",
+     "caption": "Downloading apps in the browser"
+    }
+   ],
+   "featureList": [
+    "Share files and folders over Wi-Fi or hotspot with any browser: iPhone, Android, Windows, Mac, Linux",
+    "QR code and short link; no app, account or internet needed on the other side",
+    "Visitors download single files, folders or a selection as zip, and upload files and whole folders",
+    "Send, Receive or Both ways, with an optional PIN and a Block button for devices",
+    "Quick hotspot with a Wi-Fi QR code when there is no Wi-Fi",
+    "Phone to phone download of everything shared, folders included, with resume",
+    "Watch party: videos and music play in sync on every device, with chat, reactions and subtitles",
+    "Share installed apps as APK, or split apps as APKS, to any browser or another MegaShare",
+    "Install APK, APKS, XAPK and APKM files, picking the splits the phone needs, like SAI",
+    "Back up apps to storage and install them again later",
+    "Shared clipboard, light, dark and AMOLED themes, 16 accent colors"
+   ],
+   "offers": {
+    "@type": "Offer",
+    "price": "0",
+    "priceCurrency": "USD"
+   },
+   "author": {
+    "@id": "https://megamind2999.github.io/MegaShareApk/#author"
+   },
+   "publisher": {
+    "@id": "https://megamind2999.github.io/MegaShareApk/#author"
+   }
+  },
+  {
+   "@type": "Person",
+   "@id": "https://megamind2999.github.io/MegaShareApk/#author",
+   "name": "MegaMind",
+   "url": "https://github.com/MegaMind2999"
+  },
+  {
+   "@type": "WebSite",
+   "@id": "https://megamind2999.github.io/MegaShareApk/#website",
+   "name": "MegaShare",
+   "url": "https://megamind2999.github.io/MegaShareApk/",
+   "inLanguage": "en",
+   "publisher": {
+    "@id": "https://megamind2999.github.io/MegaShareApk/#author"
+   },
+   "about": {
+    "@id": "https://megamind2999.github.io/MegaShareApk/#app"
+   }
+  }
+ ]
+}
+</script>
+
+<script type="application/ld+json">
+{
+ "@context": "https://schema.org",
+ "@type": "FAQPage",
+ "mainEntity": [
+  {
+   "@type": "Question",
+   "name": "Is MegaShare really free?",
+   "acceptedAnswer": {
+    "@type": "Answer",
+    "text": "Yes. It's free, with no ads, no subscriptions and no in-app purchases."
+   }
+  },
+  {
+   "@type": "Question",
+   "name": "Does the other person need to install anything?",
+   "acceptedAnswer": {
+    "@type": "Answer",
+    "text": "No. They open the link or scan the QR code with their camera and use their normal browser, on any phone, tablet or computer. If they'd like the app too, they can install it from your phone through the “App” QR code."
+   }
+  },
+  {
+   "@type": "Question",
+   "name": "Does it work with iPhone, Windows and Mac?",
+   "acceptedAnswer": {
+    "@type": "Answer",
+    "text": "Yes. Anything with a modern browser works: Safari, Chrome, Edge, Firefox and others. Only the phone that shares needs Android 7.0 or newer."
+   }
+  },
+  {
+   "@type": "Question",
+   "name": "Do I need internet or mobile data?",
+   "acceptedAnswer": {
+    "@type": "Answer",
+    "text": "No. Both devices just need to be on the same Wi-Fi, or one of them on the other's hotspot. Files never go over the internet, so no data is used."
+   }
+  },
+  {
+   "@type": "Question",
+   "name": "Is it safe? Can strangers see my files?",
+   "acceptedAnswer": {
+    "@type": "Answer",
+    "text": "Only devices on the same network can open the page, only while sharing is on, and they only see what you picked. You can add a PIN, see every connected device and block it, turn off uploads or downloads at any time, and sharing stops by itself when nobody uses it."
+   }
+  },
+  {
+   "@type": "Question",
+   "name": "Can I share without a password on the hotspot?",
+   "acceptedAnswer": {
+    "@type": "Answer",
+    "text": "Yes. Android doesn't let apps create an open hotspot by themselves, so the Quick hotspot gets a password, but MegaShare shows a Wi-Fi QR code so nobody types it. For an open network, choose “Phone hotspot” and set Security to “None” in your hotspot settings, or keep a simple 8-digit password."
+   }
+  },
+  {
+   "@type": "Question",
+   "name": "How does the watch party work?",
+   "acceptedAnswer": {
+    "@type": "Answer",
+    "text": "Open the Party tab, add videos, songs or a whole folder and start the party. Friends on the same Wi-Fi or your hotspot scan the QR code and join in their browser, or with MegaShare. Your phone keeps everyone on the same second: when anyone presses play, pauses or jumps ahead, it happens for all. You choose whether everyone can control it or only you, and your phone can just be the remote while friends watch on a laptop or TV browser. The video plays from your phone, so most MP4 and WebM videos and common music files work; some MKV files can't play in a browser."
+   }
+  },
+  {
+   "@type": "Question",
+   "name": "How do I share apps or install split APKs (APKS, XAPK, APKM)?",
+   "acceptedAnswer": {
+    "@type": "Answer",
+    "text": "Open the Apps tab, tick the apps and tap Share. Friends on the same Wi-Fi or your hotspot scan the QR code: in a browser they download each app as an APK (split apps as one APKS file), and with MegaShare they install them straight from your phone. To install a file, tap “Pick an app file” in Files & backups, or open an .apk, .apks, .xapk or .apkm file with MegaShare. Split apps install in one step with only the parts your phone needs, like SAI."
+   }
+  },
+  {
+   "@type": "Question",
+   "name": "Can I back up my apps?",
+   "acceptedAnswer": {
+    "@type": "Answer",
+    "text": "Yes. In the Apps tab, tap ⋮ next to an app and choose Back up, or tick several and tap the save button. Apps are saved to Download/MegaShare/Apps as .apk, or .apks for split apps, and you can install them again from there at any time. App data (logins, game progress) isn't included, only the app itself."
+   }
+  },
+  {
+   "@type": "Question",
+   "name": "Is there a file size limit?",
+   "acceptedAnswer": {
+    "@type": "Answer",
+    "text": "No. Large videos and whole folders transfer fine, and downloads between two phones with MegaShare can resume if they're interrupted."
+   }
+  },
+  {
+   "@type": "Question",
+   "name": "How do I install it, and how do updates work?",
+   "acceptedAnswer": {
+    "@type": "Answer",
+    "text": "Download MegaShare.apk on your Android phone and open it. If Android asks, allow installing apps from your browser or file manager. MegaShare checks for new versions once a day and can install them by itself (silently on Android 12+), and never while you're sharing."
+   }
+  },
+  {
+   "@type": "Question",
+   "name": "Why isn't it on Google Play?",
+   "acceptedAnswer": {
+    "@type": "Answer",
+    "text": "MegaShare is published directly as an APK on this site and its GitHub releases page."
+   }
+  }
+ ]
 }
 </script>
 
@@ -64,6 +261,9 @@
     <g id="i-sliders" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 21v-7M4 10V3M12 21v-9M12 8V3M20 21v-5M20 12V3M1 14h6M9 8h6M17 16h6"/></g>
     <g id="i-party" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="4" width="20" height="14" rx="2.5"/><path d="M10 8.5v5l4-2.5z"/><path d="M8 21h8"/></g>
     <g id="i-music" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 18V5l12-2v13"/><circle cx="6" cy="18" r="3"/><circle cx="18" cy="16" r="3"/></g>
+    <g id="i-apps" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="7" height="7" rx="2"/><rect x="14" y="3" width="7" height="7" rx="2"/><rect x="3" y="14" width="7" height="7" rx="2"/><rect x="14" y="14" width="7" height="7" rx="2"/></g>
+    <g id="i-layers" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2 2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"/></g>
+    <g id="i-save" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M19 21H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h11l5 5v11a2 2 0 0 1-2 2z"/><path d="M17 21v-8H7v8M7 3v5h8"/></g>
     <g id="i-zap" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M13 2L3 14h9l-1 8 10-12h-9l1-8z"/></g>
     <g id="i-box" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 8v13H3V8M1 3h22v5H1zM10 12h4"/></g>
     <g id="i-palette" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2a10 10 0 0 0 0 20c1.1 0 2-.9 2-2 0-.5-.2-1-.5-1.3-.3-.4-.5-.8-.5-1.3 0-1.1.9-2 2-2h2.3A5.7 5.7 0 0 0 22 9.7C22 5.4 17.5 2 12 2z"/><circle cx="7.5" cy="11" r="1"/><circle cx="10" cy="7" r="1"/><circle cx="15" cy="7" r="1"/></g>
@@ -76,7 +276,7 @@
 <header class="topbar">
   <div class="wrap">
     <a class="brand" href="./"><img src="icon.png" alt="" width="34" height="34">MegaShare</a>
-    <nav class="links"><a href="#how">How it works</a><a href="#screenshots">Screenshots</a><a href="#features">Features</a><a href="#quick-share">vs Quick Share</a><a href="#faq">FAQ</a></nav>
+    <nav class="links"><a href="#how">How it works</a><a href="#screenshots">Screenshots</a><a href="#features">Features</a><a href="#apps">Apps</a><a href="#quick-share">vs Quick Share</a><a href="#faq">FAQ</a></nav>
     <a class="btn" href="https://github.com/MegaMind2999/MegaShareApk/releases/latest/download/MegaShare.apk"><svg viewBox="0 0 24 24"><use href="#i-down"/></svg>Download</a>
   </div>
 </header>
@@ -151,7 +351,9 @@
       <figure><img src="screenshots/receive.jpg" alt="Download from a phone: pick files from another phone running MegaShare and download them all" loading="lazy"><figcaption>Phone to phone</figcaption></figure>
       <figure><img src="screenshots/party.jpg" alt="Watch party on the phone: now playing with play, pause and seek for everyone, who is watching, and chat" loading="lazy"><figcaption>Watch party</figcaption></figure>
       <figure><img src="screenshots/party-player.jpg" alt="The party player: a song with its cover on a spinning record, live visualizer, reactions and chat" loading="lazy"><figcaption>Music together, in sync</figcaption></figure>
-      <figure><img src="screenshots/themes.jpg" alt="Appearance settings with light and dark themes and 12 accent colors" loading="lazy"><figcaption>Make it yours</figcaption></figure>
+      <figure><img src="screenshots/apps.jpg" alt="Apps tab sharing three apps with a QR code: friends scan it and install them" loading="lazy"><figcaption>Share apps</figcaption></figure>
+      <figure class="web"><img src="screenshots/apps-web.jpg" alt="The visitor's browser listing the shared apps with a Download button for each" loading="lazy"><figcaption>They download the APKs</figcaption></figure>
+      <figure><img src="screenshots/themes.jpg" alt="Appearance settings with light and dark themes and accent colors" loading="lazy"><figcaption>Make it yours</figcaption></figure>
     </div>
   </section>
 
@@ -164,6 +366,9 @@
     <div class="feature reveal"><div class="ico i-cyan"><svg viewBox="0 0 24 24"><use href="#i-globe"/></svg></div><h3>Works with every device</h3><p>Android, iPhone, iPad, Windows, Mac or Linux. If it has a browser, it can download and upload. Nobody installs anything.</p></div>
     <div class="feature reveal"><div class="ico i-pink"><svg viewBox="0 0 24 24"><use href="#i-party"/></svg></div><h3>Watch party, in perfect sync</h3><p>Pick movies or clips, friends scan the QR code and everyone watches together. Play, pause and seek happen for all at once, with chat, emoji reactions and subtitles.</p></div>
     <div class="feature reveal"><div class="ico i-violet"><svg viewBox="0 0 24 24"><use href="#i-music"/></svg></div><h3>Music together</h3><p>Play songs or a whole album on every phone in the room at the same moment. Cover art, a live visualizer, shuffle and loop, and play/pause from the lock screen.</p></div>
+    <div class="feature reveal" id="apps"><div class="ico i-cyan"><svg viewBox="0 0 24 24"><use href="#i-apps"/></svg></div><h3>Share apps, no store needed</h3><p>Tick the apps you want and show the QR code. Friends download them as APK in any browser, or install them straight from your phone with MegaShare, split apps included.</p></div>
+    <div class="feature reveal"><div class="ico i-orange"><svg viewBox="0 0 24 24"><use href="#i-layers"/></svg></div><h3>Split APK installer, like SAI</h3><p>Install APK, APKS, XAPK and APKM files in one go. MegaShare picks only the parts your phone needs (CPU, screen and language) and copies game data for XAPK.</p></div>
+    <div class="feature reveal"><div class="ico i-green"><svg viewBox="0 0 24 24"><use href="#i-save"/></svg></div><h3>Back up your apps</h3><p>Save any installed app as an APK, or an APKS for split apps, to Download/MegaShare/Apps. Install it again later from storage, or send it with any app.</p></div>
     <div class="feature reveal"><div class="ico i-violet"><svg viewBox="0 0 24 24"><use href="#i-swap"/></svg></div><h3>Send, receive or both</h3><p>Let people only download, only send you files, or both. Each switch (download, upload, rename, delete, hidden files) can change while you're sharing.</p></div>
     <div class="feature reveal"><div class="ico i-amber"><svg viewBox="0 0 24 24"><use href="#i-folder"/></svg></div><h3>Share exactly what you want</h3><p>A few picked files, one folder, or your whole storage including the SD card. Add or remove files while sharing, or use “Share” from any app.</p></div>
     <div class="feature reveal"><div class="ico i-pink"><svg viewBox="0 0 24 24"><use href="#i-image"/></svg></div><h3>A real file page in the browser</h3><p>List and grid views, thumbnails, search in all subfolders, filters by type, a swipeable photo gallery and videos that play and skip right away.</p></div>
@@ -236,6 +441,8 @@
     <details><summary>Is it safe? Can strangers see my files?</summary><p>Only devices on the same network can open the page, only while sharing is on, and they only see what you picked. You can add a PIN, see every connected device and block it, turn off uploads or downloads at any time, and sharing stops by itself when nobody uses it.</p></details>
     <details><summary>Can I share without a password on the hotspot?</summary><p>Yes. Android doesn't let apps create an open hotspot by themselves, so the Quick hotspot gets a password, but MegaShare shows a Wi-Fi QR code so nobody types it. For an open network, choose “Phone hotspot” and set Security to “None” in your hotspot settings, or keep a simple 8-digit password.</p></details>
     <details><summary>How does the watch party work?</summary><p>Open the Party tab, add videos, songs or a whole folder and start the party. Friends on the same Wi-Fi or your hotspot scan the QR code and join in their browser, or with MegaShare. Your phone keeps everyone on the same second: when anyone presses play, pauses or jumps ahead, it happens for all. You choose whether everyone can control it or only you, and your phone can just be the remote while friends watch on a laptop or TV browser. The video plays from your phone, so most MP4 and WebM videos and common music files work; some MKV files can't play in a browser.</p></details>
+    <details><summary>How do I share apps or install split APKs (APKS, XAPK, APKM)?</summary><p>Open the Apps tab, tick the apps and tap Share. Friends on the same Wi-Fi or your hotspot scan the QR code: in a browser they download each app as an APK (split apps as one APKS file), and with MegaShare they install them straight from your phone. To install a file, tap “Pick an app file” in Files &amp; backups, or open an .apk, .apks, .xapk or .apkm file with MegaShare. Split apps install in one step with only the parts your phone needs, like SAI.</p></details>
+    <details><summary>Can I back up my apps?</summary><p>Yes. In the Apps tab, tap ⋮ next to an app and choose Back up, or tick several and tap the save button. Apps are saved to Download/MegaShare/Apps as .apk, or .apks for split apps, and you can install them again from there at any time. App data (logins, game progress) isn't included, only the app itself.</p></details>
     <details><summary>Is there a file size limit?</summary><p>No. Large videos and whole folders transfer fine, and downloads between two phones with MegaShare can resume if they're interrupted.</p></details>
     <details><summary>How do I install it, and how do updates work?</summary><p>Download <a href="https://github.com/MegaMind2999/MegaShareApk/releases/latest/download/MegaShare.apk">MegaShare.apk</a> on your Android phone and open it. If Android asks, allow installing apps from your browser or file manager. MegaShare checks for new versions once a day and can install them by itself (silently on Android 12+), and never while you're sharing.</p></details>
     <details><summary>Why isn't it on Google Play?</summary><p>MegaShare is published directly as an APK on this site and its GitHub releases page.</p></details>

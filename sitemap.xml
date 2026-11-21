@@ -1,6 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <url><loc>https://megamind2999.github.io/MegaShareApk/</loc><lastmod>2026-11-06</lastmod><priority>1.0</priority></url>
-  <url><loc>https://megamind2999.github.io/MegaShareApk/privacy.html</loc><lastmod>2026-11-06</lastmod><priority>0.5</priority></url>
-  <url><loc>https://megamind2999.github.io/MegaShareApk/terms.html</loc><lastmod>2026-11-06</lastmod><priority>0.5</priority></url>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+  <url>
+    <loc>https://megamind2999.github.io/MegaShareApk/</loc><lastmod>2026-11-22</lastmod><changefreq>weekly</changefreq><priority>1.0</priority>
+    <image:image><image:loc>https://megamind2999.github.io/MegaShareApk/icon.png</image:loc><image:title>MegaShare app icon</image:title></image:image>
+    <image:image><image:loc>https://megamind2999.github.io/MegaShareApk/screenshots/setup.jpg</image:loc><image:title>MegaShare: pick what to share</image:title></image:image>
+    <image:image><image:loc>https://megamind2999.github.io/MegaShareApk/screenshots/live.jpg</image:loc><image:title>MegaShare: QR code and link to share files</image:title></image:image>
+    <image:image><image:loc>https://megamind2999.github.io/MegaShareApk/screenshots/web-grid.jpg</image:loc><image:title>Shared files in the visitor's browser, no app needed</image:title></image:image>
+    <image:image><image:loc>https://megamind2999.github.io/MegaShareApk/screenshots/web-upload.jpg</image:loc><image:title>Uploading files from the browser to the phone</image:title></image:image>
+    <image:image><image:loc>https://megamind2999.github.io/MegaShareApk/screenshots/activity.jpg</image:loc><image:title>Live transfers and connected devices</image:title></image:image>
+    <image:image><image:loc>https://megamind2999.github.io/MegaShareApk/screenshots/receive.jpg</image:loc><image:title>Phone to phone download with MegaShare</image:title></image:image>
+    <image:image><image:loc>https://megamind2999.github.io/MegaShareApk/screenshots/party.jpg</image:loc><image:title>Watch party: videos in sync on every device</image:title></image:image>
+    <image:image><image:loc>https://megamind2999.github.io/MegaShareApk/screenshots/party-player.jpg</image:loc><image:title>Music together, in sync</image:title></image:image>
+    <image:image><image:loc>https://megamind2999.github.io/MegaShareApk/screenshots/apps.jpg</image:loc><image:title>Share Android apps with a QR code</image:title></image:image>
+    <image:image><image:loc>https://megamind2999.github.io/MegaShareApk/screenshots/apps-web.jpg</image:loc><image:title>Download shared APKs in any browser</image:title></image:image>
+    <image:image><image:loc>https://megamind2999.github.io/MegaShareApk/screenshots/themes.jpg</image:loc><image:title>Themes and accent colors</image:title></image:image>
+  </url>
+  <url><loc>https://megamind2999.github.io/MegaShareApk/privacy.html</loc><lastmod>2026-11-22</lastmod><priority>0.3</priority></url>
+  <url><loc>https://megamind2999.github.io/MegaShareApk/terms.html</loc><lastmod>2026-11-06</lastmod><priority>0.3</priority></url>
 </urlset>

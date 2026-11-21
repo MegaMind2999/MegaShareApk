@@ -4,8 +4,8 @@
 
 <h1 align="center">MegaShare</h1>
 
-<p align="center"><b>Share files from Android with any phone or computer. They only need a browser.</b><br>
-Wi-Fi or hotspot · QR code and link · download and upload in any browser · folders and big files · no internet, no account, no app on the other side</p>
+<p align="center"><b>Share files and apps from Android with any phone or computer. They only need a browser.</b><br>
+Wi-Fi or hotspot · QR code and link · download and upload in any browser · folders and big files · watch party · split APK installer and app backup · no internet, no account, no app on the other side</p>
 
 <p align="center">
   <a href="https://github.com/MegaMind2999/MegaShareApk/releases/latest/download/MegaShare.apk"><b>⬇ Download MegaShare.apk (latest)</b></a>
@@ -25,6 +25,8 @@ MegaShare turns your Android phone into a private file page on your Wi-Fi or hot
 
 **Watch party:** pick movies or songs, friends scan the QR code, and everyone watches or listens together, in sync. When anyone pauses or skips, it happens for all.
 
+**Apps:** share installed apps with friends (they download the APK in any browser, or install it straight away with MegaShare), install split APKs (APKS, XAPK, APKM) like SAI, and back up your apps.
+
 **Quick Share didn't find the other phone again?** Quick Share sometimes can't see the other device, it hides under different names and menus on different Android brands, and it needs Quick Share on both sides. MegaShare is the easier way: a QR code any browser understands.
 
 <p align="center">
@@ -36,6 +38,8 @@ MegaShare turns your Android phone into a private file page on your Wi-Fi or hot
   <img src="screenshots/receive.jpg" width="200" alt="Download from another phone">
   <img src="screenshots/party.jpg" width="200" alt="Watch party on the phone">
   <img src="screenshots/party-player.jpg" width="200" alt="Music together, in sync">
+  <img src="screenshots/apps.jpg" width="200" alt="Sharing apps with a QR code">
+  <img src="screenshots/apps-web.jpg" width="200" alt="Downloading the shared apps in the browser">
   <img src="screenshots/themes.jpg" width="200" alt="Themes and accent colors">
 </p>
 
@@ -67,6 +71,13 @@ MegaShare turns your Android phone into a private file page on your Wi-Fi or hot
 - Subtitles (.srt or .vtt, matched by name), double-tap to skip, keyboard shortcuts, picture-in-picture, full screen
 - Music: cover art on a spinning record, live visualizer, shuffle and loop, play/pause from the lock screen
 - "Everyone" or "Only me" controls; your phone can be the remote while friends watch on a laptop or TV browser
+
+**Apps (share, install, back up)**
+- Apps tab: your installed apps with search and filters (your apps, split apps, system apps)
+- Share apps over Wi-Fi or hotspot with a QR code: any browser downloads them as .apk (split apps as one .apks); another phone with MegaShare installs them straight away, split apps included
+- Install APK, APKS, XAPK, APKM or a zip of APKs, like SAI: it picks the splits this phone needs (CPU, screen density, languages) and installs them in one step; XAPK game data (OBB) is copied too
+- Open an app file with MegaShare from any file manager, or pick one in the app
+- Back up apps to Download/MegaShare/Apps, send them with any app, open App info or uninstall
 
 **Phone to phone (MegaShare on both)**
 - Find nearby phones, scan the page QR or the hotspot Wi-Fi QR, or type the address

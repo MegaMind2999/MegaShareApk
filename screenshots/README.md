@@ -14,5 +14,7 @@ The visitor's side is Chrome on the same emulator. 720 px wide JPGs.
 | `themes.jpg` | Settings → Appearance: theme, AMOLED, 12 accents, app icon |
 | `party.jpg` | Party tab while a party runs: now playing (played by Sara), reactions, who is watching, chat |
 | `party-player.jpg` | Party player in the app: a song on the spinning record with the live visualizer, chat |
+| `apps.jpg` | Apps tab sharing three apps: QR code, address, the shared list |
+| `apps-web.jpg` | Visitor's browser: the shared apps, each with a Download button |
 
 Retake them on the emulator when the UI changes noticeably; never use screenshots from a personal device.
