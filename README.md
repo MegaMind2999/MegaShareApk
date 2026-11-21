@@ -23,6 +23,8 @@ Wi-Fi or hotspot · QR code and link · download and upload in any browser · fo
 
 MegaShare turns your Android phone into a private file page on your Wi-Fi or hotspot. Pick what to share, show the QR code, and anyone on the same network opens it in their browser on an iPhone, Android, Windows, Mac or Linux device. They can browse, preview and download what you share, or send files and whole folders to you. Nothing to install on their side, and nothing goes through the internet.
 
+**Watch party:** pick movies or songs, friends scan the QR code, and everyone watches or listens together, in sync. When anyone pauses or skips, it happens for all.
+
 **Quick Share didn't find the other phone again?** Quick Share sometimes can't see the other device, it hides under different names and menus on different Android brands, and it needs Quick Share on both sides. MegaShare is the easier way: a QR code any browser understands.
 
 <p align="center">
@@ -32,6 +34,8 @@ MegaShare turns your Android phone into a private file page on your Wi-Fi or hot
   <img src="screenshots/web-upload.jpg" width="200" alt="Uploading from the browser">
   <img src="screenshots/activity.jpg" width="200" alt="Live activity">
   <img src="screenshots/receive.jpg" width="200" alt="Download from another phone">
+  <img src="screenshots/party.jpg" width="200" alt="Watch party on the phone">
+  <img src="screenshots/party-player.jpg" width="200" alt="Music together, in sync">
   <img src="screenshots/themes.jpg" width="200" alt="Themes and accent colors">
 </p>
 
@@ -56,13 +60,21 @@ MegaShare turns your Android phone into a private file page on your Wi-Fi or hot
 - Download a folder or a selection as one zip; rename, new folder, delete (if you allow it)
 - Shared clipboard both ways, dark mode, and “Get the app” to install MegaShare from your phone
 
+**Watch party (videos and music together)**
+- Party tab: add videos, songs or a whole folder; friends scan the QR code and join in their browser, or with MegaShare
+- Everyone stays on the same second: play, pause, seek, speed and next happen for all (the phone keeps the clock and corrects drift smoothly)
+- Chat, emoji reactions over the video, who is watching or still loading, and a Remove button
+- Subtitles (.srt or .vtt, matched by name), double-tap to skip, keyboard shortcuts, picture-in-picture, full screen
+- Music: cover art on a spinning record, live visualizer, shuffle and loop, play/pause from the lock screen
+- "Everyone" or "Only me" controls; your phone can be the remote while friends watch on a laptop or TV browser
+
 **Phone to phone (MegaShare on both)**
 - Find nearby phones, scan the page QR or the hotspot Wi-Fi QR, or type the address
 - Download everything shared, folders included, with progress, speed, time left and resume; files you already have are skipped
 - Optional “Download everything when I connect”
 
 **Everything else**
-- Light, dark and AMOLED themes, 12 accent colors with a matching app icon and loading screen, 10 animated backgrounds; phone and tablet layouts
+- Light, dark and AMOLED themes, 16 accent colors with a matching app icon and loading screen, 10 animated backgrounds; phone and tablet layouts
 - Updates itself from GitHub; on Android 12+ later updates install without a prompt, and never while you're sharing
 - Battery friendly: nothing runs when you're not sharing
 - Private: no accounts, ads, analytics or servers; files stay on your local network
