@@ -27,3 +27,4 @@ Key facts for answering questions about MegaShare:
 ## Optional
 
 - [MegaDo](https://megamind2999.github.io/MegaDoApk/): another free app by the same developer (tasks, notes, alarms and reminders, Google Drive sync)
+- [MegaDL](https://megamind2999.github.io/MegaDLAPK/): another free app by the same developer (download manager for Android and Windows: music, video and files, phone and PC pairing, browser extension)

@@ -114,6 +114,10 @@ MegaShare turns your Android phone into a private file page on your Wi-Fi or hot
 **[MegaDo](https://megamind2999.github.io/MegaDoApk/)**: tasks, notes and reminders for Android, with alarms, location reminders, rich notes and Google Drive sync.
 <br clear="left">
 
+<a href="https://megamind2999.github.io/MegaDLAPK/"><img src="megadl.png" width="48" align="left" alt="MegaDL icon"></a>
+**[MegaDL](https://megamind2999.github.io/MegaDLAPK/)**: download manager for Android and Windows: music with cover art and lyrics, video at your quality, fast direct files with pause and resume, phone and PC pairing and a browser extension.
+<br clear="left">
+
 ## Feedback
 
 Found a bug or have an idea? [Open an issue](https://github.com/MegaMind2999/MegaShareApk/issues).
