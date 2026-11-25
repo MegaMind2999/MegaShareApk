@@ -5,7 +5,7 @@
 <h1 align="center">MegaShare</h1>
 
 <p align="center"><b>Share files and apps from Android with any phone or computer. They only need a browser.</b><br>
-Wi-Fi or hotspot · QR code and link · download and upload in any browser · folders and big files · watch party · split APK installer and app backup · no internet, no account, no app on the other side</p>
+Wi-Fi or hotspot · QR code and link · download and upload in any browser · folders and big files · share a text or link · watch party · split APK installer and app backup · no internet, no account, no app on the other side</p>
 
 <p align="center">
   <a href="https://github.com/MegaMind2999/MegaShareApk/releases/latest/download/MegaShare.apk"><b>⬇ Download MegaShare.apk (latest)</b></a>
@@ -23,6 +23,8 @@ Wi-Fi or hotspot · QR code and link · download and upload in any browser · fo
 
 MegaShare turns your Android phone into a private file page on your Wi-Fi or hotspot. Pick what to share, show the QR code, and anyone on the same network opens it in their browser on an iPhone, Android, Windows, Mac or Linux device. They can browse, preview and download what you share, or send files and whole folders to you. Nothing to install on their side, and nothing goes through the internet.
 
+**Share a text:** paste an address, a Wi-Fi password, a code or a link. Everyone who scans the QR code sees it on the page and copies it with one tap.
+
 **Watch party:** pick movies or songs, friends scan the QR code, and everyone watches or listens together, in sync. When anyone pauses or skips, it happens for all.
 
 **Apps:** share installed apps with friends (they download the APK in any browser, or install it straight away with MegaShare), install split APKs (APKS, XAPK, APKM) like SAI, and back up your apps.
@@ -34,6 +36,8 @@ MegaShare turns your Android phone into a private file page on your Wi-Fi or hot
   <img src="screenshots/live.jpg" width="200" alt="QR code and link">
   <img src="screenshots/web-grid.jpg" width="200" alt="The visitor's browser">
   <img src="screenshots/web-upload.jpg" width="200" alt="Uploading from the browser">
+  <img src="screenshots/text.jpg" width="200" alt="Sharing a text">
+  <img src="screenshots/web-text.jpg" width="200" alt="Copying the shared text in the browser">
   <img src="screenshots/activity.jpg" width="200" alt="Live activity">
   <img src="screenshots/receive.jpg" width="200" alt="Download from another phone">
   <img src="screenshots/party.jpg" width="200" alt="Watch party on the phone">
@@ -48,6 +52,7 @@ MegaShare turns your Android phone into a private file page on your Wi-Fi or hot
 **Sharing**
 - Send, Receive or Both ways, with separate switches for download, upload, rename/new folder, delete and hidden files, all changeable while sharing
 - Share picked files, one folder, or the whole storage including the SD card; add or remove files while sharing, or use “Share” from any app
+- Share a text instead: paste or type a link, address, code or Wi-Fi password; visitors see it at the top of the page with a big Copy button (and “Open link” for a web address), and your edits show up live
 - Big QR code, full-screen QR, copy or send the link, and a choice of address when the phone has more than one network
 - Optional PIN, live list of devices with Block, auto-stop when idle, Quick Settings tile, start/stop button on every tab
 
@@ -86,6 +91,8 @@ MegaShare turns your Android phone into a private file page on your Wi-Fi or hot
 
 **Everything else**
 - Light, dark and AMOLED themes, 16 accent colors with a matching app icon and loading screen, 10 animated backgrounds; phone and tablet layouts
+- App size from 80 to 130 %; the phone's font size and display size can't break the layout any more
+- Ready for Android 17: asks for local-network access before sharing so other devices can connect
 - Updates itself from GitHub; on Android 12+ later updates install without a prompt, and never while you're sharing
 - Battery friendly: nothing runs when you're not sharing
 - Private: no accounts, ads, analytics or servers; files stay on your local network

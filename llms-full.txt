@@ -16,11 +16,18 @@ Sending files between different devices is often hard: Quick Share (Nearby Share
 
 ## How it works
 
-1. Pick what to share: a few files, one folder, or the whole storage (SD card included). Choose Send (others download), Receive (others upload to you) or Both ways.
+1. Pick what to share: a few files, one folder, the whole storage (SD card included), or a text. Choose Send (others download), Receive (others upload to you) or Both ways.
 2. Tap start. MegaShare shows a big QR code and a short address like 192.168.1.5:8080.
 3. Others on the same Wi-Fi or hotspot scan the QR with their camera or type the address in a browser. A file page opens where they browse, preview, download or upload.
 
 Files go directly between the two devices over the local network, at Wi-Fi speed, using no mobile data. Sharing stops when you stop it or after an idle time you choose.
+
+## Share a text
+
+- Choose Text under "What to share", then paste or type a link, address, code, Wi-Fi password or note (up to 100,000 characters).
+- Visitors who open the link or scan the QR see it at the top of the page with a big Copy button, plus "Open link" when the text is a single web address. Copy works on plain-HTTP pages too.
+- Edits on the phone show up on the page within seconds; the PIN protects the text like files. Uploads can stay on, and go to the receive folder.
+- Sharing a text from another app with Android's Share sheet sets it up.
 
 ## Networks
 
@@ -71,6 +78,8 @@ Files go directly between the two devices over the local network, at Wi-Fi speed
 ## Everything else
 
 - Light, dark and AMOLED themes, 16 accent colors with a matching app icon, 10 animated backgrounds, phone and tablet layouts.
+- App size from 80 to 130 % (Settings › Appearance). The layout uses the phone's default density with a fixed font scale, so big system fonts or display zoom don't break it.
+- Android 17: asks for local-network access before sharing (needed so other devices can connect).
 - Start or stop from every tab, a Quick Settings tile and the notification.
 - Updates itself from GitHub releases once a day (silently on Android 12+ after the first update), and never while sharing.
 - Battery friendly: nothing runs when not sharing.
@@ -98,6 +107,8 @@ Quick Share is a trademark of its owners; MegaShare is independent and not affil
 **Does the other person need to install anything?** No. They open the link or scan the QR code and use their normal browser.
 
 **Does it work with iPhone, Windows and Mac?** Yes. Any modern browser works. Only the sharing phone needs Android 7.0 or newer.
+
+**Can I share a text, link or Wi-Fi password?** Yes. Choose Text under "What to share", paste it and start sharing; visitors copy it from the page with one tap.
 
 **Do I need internet or mobile data?** No. Both devices only need to be on the same Wi-Fi, or one on the other's hotspot.
 

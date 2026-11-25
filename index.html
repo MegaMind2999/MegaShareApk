@@ -4,8 +4,8 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>MegaShare: Share files and apps from Android to any phone or PC, no app needed (free APK)</title>
-<meta name="description" content="MegaShare is a free Android app that shares files over Wi-Fi or hotspot with any phone, tablet or computer. The other side only needs a browser: scan a QR code, then download or upload files and folders. No internet, no account, no app on the other side. Watch videos and play music together in sync, share installed apps as APK, and install split APKs (APKS, XAPK, APKM) like SAI. An easier way than Quick Share. Download the free APK.">
-<meta name="keywords" content="MegaShare, file sharing app, share files Android to PC, Wi-Fi file transfer, hotspot file transfer, send files to iPhone, Quick Share alternative, Nearby Share alternative, no app needed, browser file transfer, QR code file sharing, local file server, APK download, share apps, APK extractor, app backup, split APK installer, SAI alternative, install APKS, install XAPK, install APKM, watch party, watch together, sync video, listen together">
+<meta name="description" content="MegaShare is a free Android app that shares files over Wi-Fi or hotspot with any phone, tablet or computer. The other side only needs a browser: scan a QR code, then download or upload files and folders, or copy a text you share. No internet, no account, no app on the other side. Watch videos and play music together in sync, share installed apps as APK, and install split APKs (APKS, XAPK, APKM) like SAI. An easier way than Quick Share. Download the free APK.">
+<meta name="keywords" content="MegaShare, file sharing app, share files Android to PC, Wi-Fi file transfer, hotspot file transfer, send files to iPhone, Quick Share alternative, Nearby Share alternative, no app needed, browser file transfer, QR code file sharing, local file server, APK download, share apps, APK extractor, app backup, split APK installer, SAI alternative, install APKS, install XAPK, install APKM, watch party, watch together, sync video, listen together, share text, send text to PC, share link, share Wi-Fi password">
 <link rel="canonical" href="https://megamind2999.github.io/MegaShareApk/">
 <link rel="icon" href="icon.png">
 <link rel="apple-touch-icon" href="icon.png">
@@ -38,7 +38,7 @@
    "@id": "https://megamind2999.github.io/MegaShareApk/#app",
    "name": "MegaShare",
    "alternateName": "MegaShare APK",
-   "description": "Free Android app that turns the phone into a local web file server. Any phone, tablet or computer on the same Wi-Fi or hotspot opens a link or scans a QR code and downloads or uploads files and folders in its browser, with no app on the other side and no internet. Also: watch videos and play music together in sync (watch party), share installed apps as APK or APKS, install split APKs (APKS, XAPK, APKM) like SAI, and back up apps.",
+   "description": "Free Android app that turns the phone into a local web file server. Any phone, tablet or computer on the same Wi-Fi or hotspot opens a link or scans a QR code and downloads or uploads files and folders in its browser, with no app on the other side and no internet. Also: share a text, link or Wi-Fi password that visitors copy with one tap, watch videos and play music together in sync (watch party), share installed apps as APK or APKS, install split APKs (APKS, XAPK, APKM) like SAI, and back up apps.",
    "applicationCategory": "UtilitiesApplication",
    "applicationSubCategory": "File transfer",
    "operatingSystem": "Android 7.0 or later",
@@ -66,6 +66,11 @@
     },
     {
      "@type": "ImageObject",
+     "url": "https://megamind2999.github.io/MegaShareApk/screenshots/web-text.jpg",
+     "caption": "A shared text with a Copy button in the browser"
+    },
+    {
+     "@type": "ImageObject",
      "url": "https://megamind2999.github.io/MegaShareApk/screenshots/party.jpg",
      "caption": "Watch party in sync"
     },
@@ -85,13 +90,16 @@
     "QR code and short link; no app, account or internet needed on the other side",
     "Visitors download single files, folders or a selection as zip, and upload files and whole folders",
     "Send, Receive or Both ways, with an optional PIN and a Block button for devices",
+    "Share a text, link, address or Wi-Fi password: visitors see it on the page and copy it with one tap",
     "Quick hotspot with a Wi-Fi QR code when there is no Wi-Fi",
     "Phone to phone download of everything shared, folders included, with resume",
     "Watch party: videos and music play in sync on every device, with chat, reactions and subtitles",
     "Share installed apps as APK, or split apps as APKS, to any browser or another MegaShare",
     "Install APK, APKS, XAPK and APKM files, picking the splits the phone needs, like SAI",
     "Back up apps to storage and install them again later",
-    "Shared clipboard, light, dark and AMOLED themes, 16 accent colors"
+    "Shared clipboard, light, dark and AMOLED themes, 16 accent colors",
+    "App size setting from 80 to 130 percent; layouts stay intact with any system font or display size",
+    "Ready for Android 17: asks for local-network access before sharing"
    ],
    "offers": {
     "@type": "Offer",
@@ -155,6 +163,14 @@
    "acceptedAnswer": {
     "@type": "Answer",
     "text": "Yes. Anything with a modern browser works: Safari, Chrome, Edge, Firefox and others. Only the phone that shares needs Android 7.0 or newer."
+   }
+  },
+  {
+   "@type": "Question",
+   "name": "Can I share a text, a link or a Wi-Fi password?",
+   "acceptedAnswer": {
+    "@type": "Answer",
+    "text": "Yes. On the Share tab, choose Text under “What to share”, then paste or type it and start sharing. Whoever opens the link or scans the QR code sees the text at the top of the page with a big Copy button, plus Open link when it is a single web address. Edits on your phone show up on the page within seconds, and the PIN protects it like your files."
    }
   },
   {
@@ -269,6 +285,7 @@
     <g id="i-palette" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2a10 10 0 0 0 0 20c1.1 0 2-.9 2-2 0-.5-.2-1-.5-1.3-.3-.4-.5-.8-.5-1.3 0-1.1.9-2 2-2h2.3A5.7 5.7 0 0 0 22 9.7C22 5.4 17.5 2 12 2z"/><circle cx="7.5" cy="11" r="1"/><circle cx="10" cy="7" r="1"/><circle cx="15" cy="7" r="1"/></g>
     <g id="i-toggle" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="1" y="5" width="22" height="14" rx="7"/><circle cx="16" cy="12" r="3"/></g>
     <g id="i-refresh" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M23 4v6h-6M1 20v-6h6"/><path d="M3.5 9a9 9 0 0 1 14.85-3.36L23 10M1 14l4.64 4.36A9 9 0 0 0 20.49 15"/></g>
+    <g id="i-text" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 6h16M4 12h16M4 18h10"/></g>
     <g id="i-shield" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/><path d="M9 12l2 2 4-4"/></g>
   </defs>
 </svg>
@@ -334,7 +351,7 @@
     <p class="lead">Your phone serves the files itself, straight over your local network. Nothing goes through the internet.</p>
   </section>
   <div class="steps">
-    <div class="step reveal"><h3>Pick what to share</h3><p>Choose a few files, a folder or the whole storage, and whether others can download, send you files, or both. Then tap ▶.</p></div>
+    <div class="step reveal"><h3>Pick what to share</h3><p>Choose a few files, a folder, the whole storage or just a text, and whether others can download, send you files, or both. Then tap ▶.</p></div>
     <div class="step reveal"><h3>Show the QR code</h3><p>They scan it with their camera or type the short address in any browser on the same Wi-Fi. No Wi-Fi? Start a hotspot from the app.</p></div>
     <div class="step reveal"><h3>They download or upload</h3><p>A clean file page opens: browse, preview photos and videos, download one file or everything as a zip, or send files and whole folders back.</p></div>
   </div>
@@ -347,13 +364,15 @@
       <figure><img src="screenshots/live.jpg" alt="Sharing screen with a big QR code and the address to type" loading="lazy"><figcaption>Scan or type the link</figcaption></figure>
       <figure class="web"><img src="screenshots/web-grid.jpg" alt="The visitor's browser showing shared photos in a grid with search, filters, upload and download all" loading="lazy"><figcaption>Their browser, no app</figcaption></figure>
       <figure class="web"><img src="screenshots/web-upload.jpg" alt="Uploading a large video from the browser, finished" loading="lazy"><figcaption>They send you files</figcaption></figure>
+      <figure><img src="screenshots/text.jpg" alt="Share tab with Text picked: an address, a Wi-Fi password and a link typed in to share" loading="lazy"><figcaption>Share a text</figcaption></figure>
+      <figure class="web"><img src="screenshots/web-text.jpg" alt="The visitor's browser showing the shared text with a big Copy button" loading="lazy"><figcaption>They copy it in one tap</figcaption></figure>
       <figure><img src="screenshots/activity.jpg" alt="Activity tab with live transfers to and from a Windows PC" loading="lazy"><figcaption>Live activity</figcaption></figure>
       <figure><img src="screenshots/receive.jpg" alt="Download from a phone: pick files from another phone running MegaShare and download them all" loading="lazy"><figcaption>Phone to phone</figcaption></figure>
       <figure><img src="screenshots/party.jpg" alt="Watch party on the phone: now playing with play, pause and seek for everyone, who is watching, and chat" loading="lazy"><figcaption>Watch party</figcaption></figure>
       <figure><img src="screenshots/party-player.jpg" alt="The party player: a song with its cover on a spinning record, live visualizer, reactions and chat" loading="lazy"><figcaption>Music together, in sync</figcaption></figure>
       <figure><img src="screenshots/apps.jpg" alt="Apps tab sharing three apps with a QR code: friends scan it and install them" loading="lazy"><figcaption>Share apps</figcaption></figure>
       <figure class="web"><img src="screenshots/apps-web.jpg" alt="The visitor's browser listing the shared apps with a Download button for each" loading="lazy"><figcaption>They download the APKs</figcaption></figure>
-      <figure><img src="screenshots/themes.jpg" alt="Appearance settings with light and dark themes and accent colors" loading="lazy"><figcaption>Make it yours</figcaption></figure>
+      <figure><img src="screenshots/themes.jpg" alt="Appearance settings: theme, App size, AMOLED and accent colors" loading="lazy"><figcaption>Make it yours</figcaption></figure>
     </div>
   </section>
 
@@ -371,6 +390,7 @@
     <div class="feature reveal"><div class="ico i-green"><svg viewBox="0 0 24 24"><use href="#i-save"/></svg></div><h3>Back up your apps</h3><p>Save any installed app as an APK, or an APKS for split apps, to Download/MegaShare/Apps. Install it again later from storage, or send it with any app.</p></div>
     <div class="feature reveal"><div class="ico i-violet"><svg viewBox="0 0 24 24"><use href="#i-swap"/></svg></div><h3>Send, receive or both</h3><p>Let people only download, only send you files, or both. Each switch (download, upload, rename, delete, hidden files) can change while you're sharing.</p></div>
     <div class="feature reveal"><div class="ico i-amber"><svg viewBox="0 0 24 24"><use href="#i-folder"/></svg></div><h3>Share exactly what you want</h3><p>A few picked files, one folder, or your whole storage including the SD card. Add or remove files while sharing, or use “Share” from any app.</p></div>
+    <div class="feature reveal"><div class="ico i-blue"><svg viewBox="0 0 24 24"><use href="#i-text"/></svg></div><h3>Share a text, link or password</h3><p>Paste an address, a Wi-Fi password, a code or a link. Everyone who scans the QR sees it on the page with a big Copy button, and Open link for a web address. Edit it and the page follows.</p></div>
     <div class="feature reveal"><div class="ico i-pink"><svg viewBox="0 0 24 24"><use href="#i-image"/></svg></div><h3>A real file page in the browser</h3><p>List and grid views, thumbnails, search in all subfolders, filters by type, a swipeable photo gallery and videos that play and skip right away.</p></div>
     <div class="feature reveal"><div class="ico i-orange"><svg viewBox="0 0 24 24"><use href="#i-up"/></svg></div><h3>Big uploads, whole folders</h3><p>Visitors drag and drop files or entire folders, with live progress and speed. Gigabyte videos are fine. Name clashes get “(2)” instead of overwriting.</p></div>
     <div class="feature reveal"><div class="ico i-green"><svg viewBox="0 0 24 24"><use href="#i-box"/></svg></div><h3>Download everything at once</h3><p>Grab a folder or any selection as one zip, made on the fly. No waiting for the phone to pack it first.</p></div>
@@ -379,7 +399,7 @@
     <div class="feature reveal"><div class="ico i-violet"><svg viewBox="0 0 24 24"><use href="#i-lock"/></svg></div><h3>You stay in control</h3><p>An optional PIN, a live list of connected devices with a Block button, and sharing that stops by itself when nobody has used it for a while.</p></div>
     <div class="feature reveal"><div class="ico i-amber"><svg viewBox="0 0 24 24"><use href="#i-clip"/></svg></div><h3>Shared clipboard</h3><p>Send a link, a Wi-Fi password or a note between your phone and the PC's browser in both directions. No more emailing yourself.</p></div>
     <div class="feature reveal"><div class="ico i-green"><svg viewBox="0 0 24 24"><use href="#i-toggle"/></svg></div><h3>Start from anywhere</h3><p>A start/stop button on every tab, a Quick Settings tile, and a notification with the link, live stats and “Add files”.</p></div>
-    <div class="feature reveal"><div class="ico i-pink"><svg viewBox="0 0 24 24"><use href="#i-palette"/></svg></div><h3>Stunning themes</h3><p>Light, dark and AMOLED, 16 accent colors with a matching app icon and loading screen, and 10 animated backgrounds, on phones and tablets.</p></div>
+    <div class="feature reveal"><div class="ico i-pink"><svg viewBox="0 0 24 24"><use href="#i-palette"/></svg></div><h3>Stunning themes, your size</h3><p>Light, dark and AMOLED, 16 accent colors with a matching app icon, 10 animated backgrounds, and App size from 80 to 130 %. Big system fonts or display zoom never squeeze the layout.</p></div>
   </div>
 
   <section id="network" class="reveal">
@@ -437,6 +457,7 @@
     <details><summary>Is MegaShare really free?</summary><p>Yes. It's free, with no ads, no subscriptions and no in-app purchases.</p></details>
     <details><summary>Does the other person need to install anything?</summary><p>No. They open the link or scan the QR code with their camera and use their normal browser, on any phone, tablet or computer. If they'd like the app too, they can install it from your phone through the “App” QR code.</p></details>
     <details><summary>Does it work with iPhone, Windows and Mac?</summary><p>Yes. Anything with a modern browser works: Safari, Chrome, Edge, Firefox and others. Only the phone that shares needs Android 7.0 or newer.</p></details>
+    <details><summary>Can I share a text, a link or a Wi-Fi password?</summary><p>Yes. On the Share tab, choose Text under “What to share”, then paste or type it and start sharing. Whoever opens the link or scans the QR code sees the text at the top of the page with a big Copy button, plus Open link when it is a single web address. Edits on your phone show up on the page within seconds, and the PIN protects it like your files.</p></details>
     <details><summary>Do I need internet or mobile data?</summary><p>No. Both devices just need to be on the same Wi-Fi, or one of them on the other's hotspot. Files never go over the internet, so no data is used.</p></details>
     <details><summary>Is it safe? Can strangers see my files?</summary><p>Only devices on the same network can open the page, only while sharing is on, and they only see what you picked. You can add a PIN, see every connected device and block it, turn off uploads or downloads at any time, and sharing stops by itself when nobody uses it.</p></details>
     <details><summary>Can I share without a password on the hotspot?</summary><p>Yes. Android doesn't let apps create an open hotspot by themselves, so the Quick hotspot gets a password, but MegaShare shows a Wi-Fi QR code so nobody types it. For an open network, choose “Phone hotspot” and set Security to “None” in your hotspot settings, or keep a simple 8-digit password.</p></details>
